@@ -1,0 +1,31 @@
+{
+  "name": "soph",
+  "version": "1.0.0",
+  "description": "A thought space",
+  "main": "index.js",
+  "repository": "https://gitlab.com/herberthleao/soph",
+  "author": "Herberth Leão <herberth.leao@pm.me>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@types/bootstrap": "^5.2.6",
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.10",
+    "@types/gulp-sass": "^5.0.0",
+    "@types/node": "^18.11.9",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.56.1",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  }
+}
