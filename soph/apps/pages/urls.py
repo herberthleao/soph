@@ -1,7 +1,7 @@
 from django.urls import path
 
-from soph.pages import views
+from soph.apps.pages import views
 
 urlpatterns = [
-    path('', views.home)
+    path('', views.HomePageView.as_view())
 ]
