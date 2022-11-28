@@ -1,5 +1,16 @@
-// Bootstrap
+/// Bootstrap
 @import '../../../node_modules/bootstrap/scss/bootstrap';
 
-// Variables
+/// Variables
 @import 'variables';
+@import 'theme';
+
+/// Fonts
+@import 'fonts';
+
+/// Generics
+@import 'general';
+
+/// Partials
+@import 'partials/header';
+@import 'partials/footer';

@@ -1,0 +1,22 @@
+//// Header
+
+.soph-Header {
+    background: $Header-backgroundColor;
+    padding: 1rem 0;
+
+    .soph-Brand {
+        text-decoration: none;
+
+        .soph-Brand-mark {
+            width: 40px;
+        }
+
+        .soph-Brand-type {
+            color: $Header-textColor;
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+    }
+}

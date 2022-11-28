@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES5",
     "strict": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
     "sourceMap": true,
     "removeComments": true,
     "noImplicitAny": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
+    "allowJs": true,
     "lib": [
-      "es2016",
-      "dom",
-      "es5"
+      "DOM",
+      "ES5",
+      "ES6"
     ]
   }
 }

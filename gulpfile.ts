@@ -32,7 +32,10 @@ function buildStyles() {
  * @returns The TypeScript stream.
  */
 function buildScripts() {
-    return gulp.src(`${base.source}/ts/**/*.ts`)
+    return gulp.src([
+        `${base.source}/ts/**/*.ts`,
+        'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+    ])
         .pipe(tsTranspiler())
         .pipe(gulp.dest(`${base.dist}/scripts`))
 }
