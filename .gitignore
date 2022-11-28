@@ -45,9 +45,10 @@ out/
 # JIRA plugin
 atlassian-ide-plugin.xml
 
-# Python # 
-*.py[cod] 
-*$py.class 
+# Python #
+*.py[cod]
+*$py.class
+bin/
 
 # Distribution / packaging 
 .Python build/ 
